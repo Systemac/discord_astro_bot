@@ -108,3 +108,39 @@ commands_en = Commands(
     trade_report="trade_report",
     mining_report="mining_report",
 )
+
+messages_fr = Messages(
+    ship_not_exists="%s, il n'y a pas de vaisseaux!",
+    multiple_ships_found="Je ne suis pas sûre de votre réponse, essayer ceci :\n%s",
+    member_not_found="Je suis désolé, je n'ai trouvé aucun membre.",
+    member_ships_modified="%s Voici votre flotte mise à jour :",
+    member_ships_invalid="%s, désolé ce vaisseau n'est pas valide:",
+    member_ship_not_found="%s, désolé mais vous n'avez pas ce vaisseau.",
+    ship_price_unknown="Désolé je ne connais pas le tarif de *%s*  **%s**.",
+    ship_from_report_not_found="Désolé je ne trouve rien sur *%s*.",
+    ship_price_report="Le prix de *%s* a été mis à jour à *%s*",
+    new_version="Salut! J'ai trouvé des nouvelles:\n%s",
+    road_map_not_found="Désolé, je n'ai rien trouvé de tel. Vous pouvez essayer quelque chose comme:\n```%s```",
+    something_went_wrong="Quelque chose a mal tourné...",
+    success="Terminé !",
+    found_nothing="Désolé je n'ai rien trouvé..."
+)
+
+commands_fr = Commands(
+    help="aide",
+    fleet="flotte",
+    add_ship="ajout_vaisseau",
+    remove_ship="retirer_vaisseau",
+    clear_member_ships="effacer ma liste de vaisseaux",
+    remove_member="retirer_membre",
+    prices="prix",
+    ship="vaisseaux",
+    compare="comparer",
+    releases="releases",
+    roadmap="roadmap",
+    trade="commerce",
+    trade_prices="prix_du_commerce",
+    mining="minage",
+    trade_report="rapport_de_commerce",
+    mining_report="rapport_de_minage",
+)
